@@ -1,7 +1,7 @@
 # Statistics-and-Analysis
 This is a repositary for an assignments related to general business questions for which we are trying to find out the answers as well as contains the summary statistic and analysis performed on the datasets.
 
-Assignment 1:
+<b>Assignment 1:</b>
 
 Dataset Name: TS_Dataset.csv
 
