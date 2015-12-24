@@ -36,9 +36,9 @@ tsd$time_to_reach <- round(tsd$time_to_reach, digits = 0)
 unique_user_cnt <- n_distinct(tsd$Client)
 
 #Q2: Top 10 clients/users?
-  #2.1 Highest revenue Generator
+#2.1 Highest revenue Generator
 top_10_user_by_revenue <- tsd %>% group_by(Client) %>% summarise(Revenue = sum(Sum)) %>% arrange(desc(Revenue)) %>% head(10)
-  #2.2 Regular service consumers
+#2.2 Regular service consumers
 top_10_user_by_regularity <- tsd %>% group_by(Client) %>% summarise(freq = n()) %>% arrange(desc(freq)) %>% head(10)  
 
 #Q3: How are starting points distributed? Is there a specific region in which taxi company is seeing very high demand?
