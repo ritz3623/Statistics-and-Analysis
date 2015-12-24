@@ -1,0 +1,29 @@
+ID:
+Client:  hash of client id
+CarID: car id
+dtArrive: date/time of receive of order
+dtPredvar: 
+dtBegin: date/time when car started to work (goint to the client point)
+dtWaits: date/time when car stoped and wait of client
+dtWork: date/time when car started to work (went with a client)
+dtEnd: date/time when car arrived to the finish point
+Sum:  total amount of order
+State:
+ResultCode:
+OrgID: ID of organisation of client (or NULL) 
+ServiceID: ID of taxi service
+PointCount:
+Points: a list of GPS points of the planned route (usually 1 or 2).
+AddrFromGpsY:
+AddrFromGpsX:
+AddrToGpsY:
+AddrToGpsX:
+TarifType:
+Payout:
+DistanceTotal:  total distance of route
+TimeTotal: total time for service of order 
+WaitTimeTotal: total time for wait
+CashJson: list of  GPS points of route between start and finish (JSON)
+RouteLength: total length of route
+Persistent:
+ReceivingMethod:
